@@ -52,7 +52,7 @@ let getrate = async() =>{
 	let result = await response.json();
     console.log(result);
 	let val = result["rates"][tocurr.value];
-    let finalamt = amtval * val;
+    let finalamt = Math.round(amtval * val * 10000) / 10000;
     msg.innerText = amtval+" " + fromcurr.value+ " = " + finalamt+" " + tocurr.value;
 	msg.classList.remove("hide");
 }
