@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navpanel{
+    height: 400px;
+    background-image: url('back1.jpeg');
+    background-size: cover;
+    color: rgb(75, 75, 75);
+    /* background-color: rgba(10, 6, 144, 0.744); */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: start; */
+    padding-top: 50px;
+}
+.container{
+    width: 60%;
+    /* height: 380px; */
+    background-color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 35vh;
+    right: 30vh;
+    padding: 3rem;
+    border: .25px solid gray;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+input{
+    font-size: 1.5rem;
+    width: 40%;
+    height: 1.8rem;
+    border: .5px solid gray ;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.dropdown{
+    margin-top: 50px;
+     display: flex;
+    justify-content: space-between;
+
+}
+.select-from ,.select-To{
+    display: flex;
+    width: 220px;
+    background-color: white;
+    border: .5px solid gray;
+    border-radius:10px ;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+}
+/* .select-To{
+    display: flex;
+} */
+#lg {
+    margin-top: 4rem;
+}
+.currcode{
+    width: 160px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    /* background-color: gray; */
+}
+img{
+    width: 50px;
+}
+.rate{
+    margin-top: 40px;
+}
+.msg{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 1.6rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: .5px solid gray;
+    border-radius: 10px;
+    background-color: rgba(18, 14, 140, 0.744);
+}
+.hide{
+    display: none;
+}
